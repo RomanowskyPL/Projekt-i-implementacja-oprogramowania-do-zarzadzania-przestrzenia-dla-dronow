@@ -1,0 +1,7 @@
+<resources>
+    <!-- dokładne ciągi z dumpsys usb -->
+    <usb-accessory manufacturer="DJI" model="com.dji.logiclink"/>
+    <!-- dodatkowe warianty, które też widzisz w logach -->
+    <usb-accessory manufacturer="DJI" model="com.dji.link"/>
+    <usb-accessory manufacturer="DJI" model="WM160"/>
+</resources>

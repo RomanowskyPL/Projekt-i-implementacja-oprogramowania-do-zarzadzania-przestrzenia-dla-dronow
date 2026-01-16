@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Trasa 5 punktów – prosty LineString</name>
+    <description>
+      Trasa z 5 punktów (wysokość zadamy w kodzie, np. 30 m nad punktem startu)
+    </description>
+
+    <Placemark>
+      <name>Trasa 5 – LineString</name>
+      <Style>
+        <LineStyle>
+          <color>ff00ff00</color>
+          <width>3</width>
+        </LineStyle>
+      </Style>
+
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          19.969896,50.145083,10
+          19.970158,50.145087,10
+          19.970467,50.145097,10
+          19.970610,50.145100,10
+          19.970989,50.145113,15
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

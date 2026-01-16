@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootPreview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvPreviewPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wybrany plik: -"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvPreviewStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status..."
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnChooseKmz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wybierz plik KMZ/KML" />
+
+    <Button
+        android:id="@+id/btnUploadToDrone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload do drona"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:id="@+id/btnStartOnDrone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start misji"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:id="@+id/btnClosePreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powrót"
+        android:layout_marginTop="4dp" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapViewKmzPreview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

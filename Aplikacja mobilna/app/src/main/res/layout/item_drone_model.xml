@@ -1,0 +1,51 @@
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.DroneClient.Card"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp">
+
+        <View
+            android:id="@+id/ivPlaceholder"
+            android:layout_width="64dp" android:layout_height="64dp"
+            android:background="@drawable/rounded_grey_square"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvLine1"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:textColor="?attr/colorOnSurface" android:textStyle="bold" android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/ivPlaceholder"
+            app:layout_constraintEnd_toStartOf="@+id/btnOpen"
+            app:layout_constraintTop_toTopOf="@id/ivPlaceholder"
+            android:layout_marginStart="12dp"/>
+
+        <TextView
+            android:id="@+id/tvLine2"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/tvLine1"
+            app:layout_constraintEnd_toStartOf="@+id/btnOpen"
+            app:layout_constraintTop_toBottomOf="@id/tvLine1"
+            android:textColor="?attr/colorOnSurfaceVariant"/>
+
+        <TextView
+            android:id="@+id/tvLine3"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/tvLine1"
+            app:layout_constraintEnd_toStartOf="@+id/btnOpen"
+            app:layout_constraintTop_toBottomOf="@id/tvLine2"
+            android:textColor="?attr/colorOnSurfaceVariant"/>
+
+        <View
+            android:id="@+id/btnOpen"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/ic_info_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

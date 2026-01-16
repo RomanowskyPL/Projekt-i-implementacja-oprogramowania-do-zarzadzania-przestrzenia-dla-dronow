@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DroneClient</string>
+    <string name="dji_api_key"></string> // klucz dji do uzupełnienia
+    <string name="google_maps_key"></string> // klucz google maps do uzupełnienia
+    <string name="flights_title">Loty</string>
+    <string name="flights_start">Wykonaj lot</string>
+    <string name="flights_history">Historia</string>
+    <string name="flight_details">Szczegóły lotu</string>
+    <string name="cd_back">Wstecz</string>
+    <string name="cd_more">Szczegóły</string>
+</resources>
