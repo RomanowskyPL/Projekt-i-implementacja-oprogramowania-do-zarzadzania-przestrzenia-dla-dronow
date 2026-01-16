@@ -1,0 +1,95 @@
+# --- Android artefakty / buildy ---
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+
+# --- Gradle ---
+.gradle/
+build/
+**/build/
+# NIE ignoruj wrappera – musi być w repo:
+!gradle/wrapper/gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+gradle-app.setting
+
+# --- Konfiguracje lokalne (nie do repo) ---
+local.properties
+keystore.properties
+.signing/
+*.jks
+*.keystore
+*.pem
+*.p12
+
+# --- Android Studio / IntelliJ (.idea) ---
+.idea/
+# (jeśli chcesz zachować część ustawień, usuń powyższą linię i ignoruj selektywnie:)
+# .idea/caches/
+# .idea/libraries/
+# .idea/modules.xml
+# .idea/workspace.xml
+# .idea/assetWizardSettings.xml
+# .idea/navEditor.xml
+# .idea/tasks.xml
+# .idea/compiler.xml
+# .idea/gradle.xml
+# .idea/jarRepositories.xml
+# .idea/vcs.xml
+
+# --- NDK / CMake ---
+.externalNativeBuild/
+.cxx/
+cmake-build-*/
+
+# --- Profiling / logi / zrzuty ---
+captures/
+*.hprof
+*.log
+
+# --- Kotlin / tymczasowe ---
+*.kts~
+*.swp
+*.swo
+
+# --- Systemowe / OS ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Node/Yarn (gdy używasz narzędzi webowych do UI) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Firebase/Google (opcjonalnie) ---
+# Jeśli nie chcesz trzymać w repo:
+# google-services.json
+# GoogleService-Info.plist
+
+# --- Inne sekrety / ENV (jeśli używasz) ---
+.env
+.env.*
+secrets.*
+
+
+
+# QGIS ciężkie dane
+QGIS/**/*.gpkg
+QGIS/**/*.shp
+QGIS/**/*.shx
+QGIS/**/*.dbf
+QGIS/**/*.prj
+QGIS/**/*.cpg
