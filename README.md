@@ -1,4 +1,4 @@
-# Proejkt i implementacja oprogramowania do zarządzania przestrzenią dla dronów
+# Projekt i implementacja oprogramowania do zarządzania przestrzenią dla dronów
 
 Repozytorium zawiera kompletny material projektowy oraz implementacyjny wykonany w ramach **pracy inżynierskiej**
 
