@@ -52,6 +52,12 @@ Repozytorium stanowi **załącznik do pracy inżynierskiej** i zawiera komplet m
 
 Aby uruchomić projekt lokalnie, należy uzupełnić konfigurację:
 1. **Aplikacja mobilna**
-   - Api.kt - ustawić wartość `BASE_HOST` (adres hosta/serwera backend).
-   - res/values/strings.xml - uzupełnić wymagane wartości konfiguracyjne (klucze dla usług mapowych oraz DJI)
+   - `Api.kt` - ustawić wartość `BASE_HOST` (adres hosta/serwera backend).
+   - `res/values/strings.xml` - uzupełnić wymagane wartości konfiguracyjne (klucze dla usług mapowych oraz DJI)
+  
+2. **Baza danych**
+   - `Baza danych.backup` - import kopii bazy danych do PostgreSQL/PostGIS.
+  
+3. **Backend**
+   - skonfiguruj połaczenie z bazą danych i uruchom usługę API
  
