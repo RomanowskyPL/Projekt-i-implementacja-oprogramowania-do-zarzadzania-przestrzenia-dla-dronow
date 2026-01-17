@@ -6,22 +6,26 @@ Repozytorium zawiera kompletny material projektowy oraz implementacyjny wykonany
 
 Praca inżynierska została podzielona na cztery główne etapy:
 1. **QGIS**
+   
    Wyznaczenie korytarzy powietrznych oraz bezpiecznych tras lotu drona z uwzględnieniem stref ograniczonych, infrastruktury krytycznej oraz uwarunkować przestrzennych.
 
-2. **Baza danych (PostgreSQL / PostGIS)**
+3. **Baza danych (PostgreSQL / PostGIS)**
+   
    Projekt i implementacja relacyjnej bazy danych umożliwiającej:
    - zapis tras lotów,
    - przechowywanie informacji o operatorach i dronach,
    - rejetrację historii lotów oraz danych telemetrycznych,
    - walidację spójności danych przy użyciu triggerów i funkcji bazodanowych.
 
-3. **Backend (API)**
+5. **Backend (API)**
+   
    Implementacja warstwy serwerowej odpowiedzialnej za:
    - komunikacje pomiędzy aplikacją mobilną a bazą danych,
    - obsługę logiki biznesowej systemu,
    - zarządzanie lotami, trasmi oraz użytkownikami.
 
-4. **Aplikacja mobilna (DJI MSDK v5)**
+7. **Aplikacja mobilna (DJI MSDK v5)**
+   
    Apliakcja mobilna umożliwiająca:
    - inicjalizację połączenia z dronem,
    - pobieranie danych z backendu,
